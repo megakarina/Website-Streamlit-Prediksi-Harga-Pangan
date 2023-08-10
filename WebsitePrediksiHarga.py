@@ -24,8 +24,8 @@ st.set_page_config(layout="wide")
 with st.sidebar:
     selected = option_menu(         # Membuat Nama Menu Dashboard
         menu_title="DASHBOARD",
-        options=["Beranda", "Data Historis", "Hasil Prediksi",  "Tentang", "Petunjuk Pengguna"],
-                         icons=['house-door-fill', 'calendar-event-fill', 'calendar-check-fill', 'info-square-fill', 'question-square-fill'],
+        options=["Beranda", "Data Historis", "Hasil Prediksi",  "Tentang"], ##"Petunjuk Pengguna"
+                         icons=['house-door-fill', 'calendar-event-fill', 'calendar-check-fill', 'info-square-fill'], ##'question-square-fill'
                          menu_icon="app-indicator", default_index=0,
                          styles={
         "container": {"padding": "5!important", "background-color": "#fafafa"},
